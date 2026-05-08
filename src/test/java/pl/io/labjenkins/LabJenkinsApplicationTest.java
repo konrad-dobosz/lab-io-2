@@ -9,6 +9,7 @@ class LabJenkinsApplicationTest {
     @Test
     void added() {
         LabJenkinsApplication app = new LabJenkinsApplication();
-        assertEquals(10, app.added(5, 5));
+//        assertEquals(10, app.added(5, 5));
+        assertEquals(25, app.added(5, 5));
     }
 }
